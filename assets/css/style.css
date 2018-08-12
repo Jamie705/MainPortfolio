@@ -2,11 +2,12 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background-image: url(/assets/images/stripeslight.png);
     margin: 0;
+    overflow: auto;
 }
 
 header {
-    background: #eee;
-    border-bottom: 2px solid gray;
+    background: #ffffff;
+    border-bottom: 2px solid #cccccc;
     margin-top: 0;
 }
 
@@ -26,7 +27,8 @@ h2 {
 .topnav {
     padding: 20px;
     float: right;
-    font-size:25px;
+    font-size:20px;
+    word-spacing: 5px;
     margin-top: 0;
     margin-right: 15%;
     margin-left: 65%;
@@ -41,11 +43,13 @@ a:link {
 }
 
 .aboutme { 
-    border: 2px solid #666666;
+    background-color: #ffffff;
+    border: 2px solid #dddddd;
     margin-right: 15%;
     margin-left: 15%;
-    margin-top: 5%;
+    margin-top: 40px;
     padding: 20px;
+    font-size: 20px;
 }
 
 hr {
@@ -54,13 +58,54 @@ hr {
 
 img {
     float: left;
-    padding: 15px;
+    padding: 20px;
+    padding-left: 0;
 }
 
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #4aaaa5;
     
+}
+
+.contact { 
+    background-color: #ffffff;
+    border: 2px solid #dddddd;
+    margin-right: 15%;
+    margin-left: 15%;
+    margin-top: 40px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.portfolio { 
+    background-color: #ffffff;
+    border: 2px solid #dddddd;
+    margin-right: 15%;
+    margin-left: 15%;
+    margin-top: 40px;
+    padding: 20px;
+    font-size: 20px;
+}
+.form {
+    font-size: 20px;
+    padding: 10px;
+    color: gray;
+}
+
+input [type=text], textarea, input{
+    width: 100%;
+    border: 1px solid #dddddd;
+    padding: 5px;
+}
+
+button {
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    padding: 10px 25px 10px 25px;
+    border: 0;
+    margin-top: 20px;
 }
 
 footer {
@@ -70,5 +115,8 @@ footer {
     border-top: 10px solid #4aaaa5;
     text-align: center;
     margin-top: 10%;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    right: 0;
 }
-
