@@ -1,14 +1,50 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url(/assets/images/stripes-light.png);
+    background-image: url(/assets/images/stripeslight.png);
+    margin: 0;
+}
+
+header {
+    background: #eee;
+    border-bottom: 2px solid gray;
+    margin-top: 0;
+}
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 0%;
+    margin-right: 60%;
+    margin-left: 15%;
+    padding: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #4aaaa5;;
+    color: #ffffff; 
+    font-size: 40px;
+    text-align: center;
+}
+
+.topnav {
+    padding: 20px;
+    float: right;
+    font-size:25px;
+    margin-top: 0;
+    margin-right: 15%;
+    margin-left: 65%;
+    position: absolute;
+    top:0;
+    right:0;
+}
+
+a:link {
+    text-decoration: none;
+    color: #666666;
 }
 
 .aboutme { 
     border: 2px solid #666666;
-    margin-top: 5%;
     margin-right: 15%;
     margin-left: 15%;
-    margin-bottom: 5%;
+    margin-top: 5%;
     padding: 20px;
 }
 
@@ -16,19 +52,9 @@ hr {
     color: whitesmoke;
  }
 
-.active {
-    border: #4aaaa5;
-    font-size: 40px #cccccc;
-}
-
-header {
-    margin-top: 5%;
-    margin-right: 15%;
-    margin-left: 15%;
-    margin-bottom: 5%;
-    padding: 20px;
-    background-color: #ffffff;
-    border-color: #cccccc;
+img {
+    float: left;
+    padding: 15px;
 }
 
 h1 {
@@ -43,5 +69,6 @@ footer {
     padding: 20px;
     border-top: 10px solid #4aaaa5;
     text-align: center;
+    margin-top: 10%;
 }
 
