@@ -86,7 +86,9 @@ h1 {
     margin-top: 40px;
     padding: 20px;
     font-size: 20px;
+    float: left;
 }
+
 .form {
     font-size: 20px;
     padding: 10px;
