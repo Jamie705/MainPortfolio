@@ -11,10 +11,11 @@ header {
     margin-top: 0;
 }
 
+/* settings for my name */
 h2 {
     margin-top: 0;
-    margin-bottom: 0%;
-    margin-right: 60%;
+    margin-bottom: 0;
+    margin-right: 55%;
     margin-left: 15%;
     padding: 25px;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -24,14 +25,14 @@ h2 {
     text-align: center;
 }
 
+/* Nav bar set to align with all pages */
 .topnav {
     padding: 20px;
     float: right;
     font-size:20px;
     word-spacing: 5px;
     margin-top: 0;
-    margin-right: 15%;
-    margin-left: 65%;
+    margin-right: 10%;
     position: absolute;
     top:0;
     right:0;
@@ -42,12 +43,12 @@ a:link {
     color: #666666;
 }
 
-.aboutme { 
+/* About me settings */
+.aboutme {
+    width: 960px;
     background-color: #ffffff;
     border: 2px solid #dddddd;
-    margin-right: 15%;
-    margin-left: 15%;
-    margin-top: 40px;
+    margin: 40px 15% 15% 15%;
     padding: 20px;
     font-size: 20px;
 }
@@ -56,51 +57,67 @@ hr {
     color: whitesmoke;
  }
 
+/* image for indext/about me page */
 img {
     float: left;
     padding: 20px;
     padding-left: 0;
 }
 
+/* Main heading for all pages */
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #4aaaa5;
-    
+    color: #4aaaa5; 
 }
 
+/* Contact page settings */
 .contact { 
+    width: 960px;
     background-color: #ffffff;
     border: 2px solid #dddddd;
-    margin-right: 15%;
-    margin-left: 15%;
-    margin-top: 40px;
+    margin: 40px 15% 15% 15%;
     padding: 20px;
     font-size: 20px;
+    overflow: auto;
 }
 
+/* Portoflio settings */
 .portfolio { 
+    width: 960px;
     background-color: #ffffff;
     border: 2px solid #dddddd;
-    margin-right: 15%;
-    margin-left: 15%;
-    margin-top: 40px;
-    padding: 20px;
+    margin: 40px 15% 15% 15%;
+    padding: 10px;
     font-size: 20px;
     float: left;
 }
 
+/* Form settings and colors */
 .form {
     font-size: 20px;
     padding: 10px;
     color: gray;
 }
 
+/* setting images next to each other */
+.imageset {
+    float: left;
+    padding: 2px;
+}
+
+/* adding place holder and hiding pix */
+.hidepix {
+    display: none;
+}
+
+/* input form settings */
 input [type=text], textarea, input{
     width: 100%;
     border: 1px solid #dddddd;
     padding: 5px;
 }
 
+/* Its a submit button */
 button {
     font-weight: bold;
     color: #ffffff;
@@ -110,13 +127,12 @@ button {
     margin-top: 20px;
 }
 
+/* Footers settings set to be centered with top higlighted boarder fixed on bottom*/
 footer {
     color: #ffffff;
     background-color: #666666;
-    padding: 20px;
     border-top: 10px solid #4aaaa5;
     text-align: center;
-    margin-top: 10%;
     width: 100%;
     position: fixed;
     bottom: 0;
