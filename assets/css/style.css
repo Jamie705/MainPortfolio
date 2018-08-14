@@ -87,7 +87,7 @@ h1 {
     background-color: #ffffff;
     border: 2px solid #dddddd;
     margin: 40px 15% 15% 15%;
-    padding: 10px;
+    padding: 20px;
     font-size: 20px;
     float: left;
 }
@@ -103,11 +103,85 @@ h1 {
 .imageset {
     float: left;
     padding: 2px;
+    position: relative;
+    z-index: 1;
 }
 
 /* adding place holder and hiding pix */
 .hidepix {
     display: none;
+}
+
+.label1 {
+    position: absolute;
+    top: 160px;
+    z-index: 2;
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    width: 300px;
+    height: 50px;
+    background-color: #4aaaa5;
+}
+
+.label2 {
+    position: absolute;
+    left: 322px;
+    top: 160px;
+    z-index: 2;
+    color: #fff;
+    text-align: center;
+    width: 300px;
+    height: 50px;
+    background-color: #4aaaa5;
+}
+
+.label3 {
+    position: absolute;
+    top: 160px;
+    z-index: 2;
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    width: 300px;
+    height: 50px;
+    background-color: #4aaaa5;
+}
+
+.label4 {
+    position: absolute;
+    left: 322px;
+    top: 160px;
+    z-index: 2;
+    color: #fff;
+    text-align: center;
+    width: 300px;
+    height: 50px;
+    background-color: #4aaaa5;
+}
+
+.label5 {
+    position: absolute;
+    top: 160px;
+    z-index: 2;
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    width: 300px;
+    height: 50px;
+    background-color: #4aaaa5;
+}
+
+.label6 {
+    position: absolute;
+    left: 322px;
+    top: 160px;
+    z-index: 2;
+    color: #fff;
+    text-align: center;
+    width: 300px;
+    height: 50px;
+    background-color: #4aaaa5;
 }
 
 /* input form settings */
@@ -133,8 +207,10 @@ footer {
     background-color: #666666;
     border-top: 10px solid #4aaaa5;
     text-align: center;
+    vertical-align: bottom;
     width: 100%;
     position: fixed;
     bottom: 0;
     right: 0;
+    z-index: 3;
 }
