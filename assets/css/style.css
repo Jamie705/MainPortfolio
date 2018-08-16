@@ -112,76 +112,47 @@ h1 {
     display: none;
 }
 
-.label1 {
-    position: absolute;
-    top: 160px;
+.labelset {
     z-index: 2;
     color: #fff;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     width: 300px;
     height: 50px;
     background-color: #4aaaa5;
+}
+.label1 {
+    position: absolute;
+    top: 160px;
+
 }
 
 .label2 {
     position: absolute;
     left: 322px;
     top: 160px;
-    z-index: 2;
-    color: #fff;
-    text-align: center;
-    width: 300px;
-    height: 50px;
-    background-color: #4aaaa5;
 }
 
 .label3 {
     position: absolute;
     top: 160px;
-    z-index: 2;
-    color: #fff;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: center;
-    width: 300px;
-    height: 50px;
-    background-color: #4aaaa5;
 }
 
 .label4 {
     position: absolute;
     left: 322px;
     top: 160px;
-    z-index: 2;
-    color: #fff;
-    text-align: center;
-    width: 300px;
-    height: 50px;
-    background-color: #4aaaa5;
 }
 
 .label5 {
     position: absolute;
     top: 160px;
-    z-index: 2;
-    color: #fff;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: center;
-    width: 300px;
-    height: 50px;
-    background-color: #4aaaa5;
 }
 
 .label6 {
     position: absolute;
     left: 322px;
     top: 160px;
-    z-index: 2;
-    color: #fff;
-    text-align: center;
-    width: 300px;
-    height: 50px;
-    background-color: #4aaaa5;
 }
 
 /* input form settings */
