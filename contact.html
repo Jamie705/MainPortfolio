@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Contact - Jamie Rodriguez</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/css_reset.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
     <script src="main.js"></script>
 </head>
@@ -25,30 +26,27 @@
     </div>
 </header>
 
-    <div class="contact">
+        <div class="contact">
 
-        <h1>Contact</h1>
-        <hr>
+            <h1>Contact</h1>
+                <div class="insideform"> 
+                    <form action="mailto:rodriguez.jamie@live.com" method="post" enctype="text/plain">             
+                        <div class="form">                
+                            <label for="Name">Name
+                                <input type="text" placeholder="John Smith">                        <br>
+                            </label>
 
-        <form action="mailto:rodriguez.jamie@live.com" method="post" enctype="text/plain">
+                            <label for="Email">Email
+                                <input type="email" placeholder="example@gmail.com" required>
+                            </label>
 
-            <div class="form">
-                <label for="Name">Name
-                    <input type="text" placeholder="John Smith">
-                    <br>
-                </label>
-
-                <label for="Email">Email
-                    <input type="email" placeholder="example@gmail.com" required>
-                </label>
-
-                <p>Message:</p>
-                <textarea rows="10" cols="50"></textarea>
-                <br>
-                <button>Submit</button>
-
-        </form>
-
+                            <p>Message:</p>
+                            <textarea rows="10" cols="50"></textarea>
+                            <br>
+                            <button>Submit</button>
+                        </div> 
+                    </form>
+                </div>
         </div>
 
         <footer>
