@@ -8,6 +8,7 @@ body {
     overflow: auto;
     color: #777;
     font-size: 18px;
+    line-height: 1.5;
 }
 
 header {
@@ -27,9 +28,8 @@ header {
 /* settings for my name */
 h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    width: 320px;
-    height: 90px;
     background-color: #4aaaa5;
+    padding: 20px;
     float: left;
     color: #ffffff;
     font-size: 30px;
@@ -64,7 +64,7 @@ a:hover {
 }
 
 .aboutme p {
-    padding-top: 20px;
+    padding-top: 10px;
  }
 
 /* image for indext/about me page */
@@ -210,7 +210,7 @@ footer {
     border-top: 10px solid #4aaaa5;
     text-align: center;
     padding: 10px;
-    padding-bottom: 0;
+    padding-bottom: 10px;
     width: 100%;
     position: fixed;
     bottom: 0;
