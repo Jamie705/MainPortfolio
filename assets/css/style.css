@@ -3,7 +3,7 @@
 }
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url(/assets/images/stripeslight.png);
+    background-image: url(../images/stripeslight.png);
     margin: 0 auto;
     overflow: auto;
     color: #777;
@@ -153,37 +153,15 @@ input {
     margin-bottom: 0px;
     background-color: #4aaaa5;
 }
-.label1 {
+.label1, .label3, .label5 {
     position: absolute;
-    top: 120px;
+    top: 110px;
 }
 
-.label2 {
+.label2, .label4, .label6 {
     position: absolute;
     left: 302px;
-    top: 120px;
-}
-
-.label3 {
-    position: absolute;
-    top: 120px;
-}
-
-.label4 {
-    position: absolute;
-    left: 302px;
-    top: 120px;
-}
-
-.label5 {
-    position: absolute;
-    top: 120px;
-}
-
-.label6 {
-    position: absolute;
-    left: 302px;
-    top: 120px;
+    top: 110px;
 }
 
 /* input form settings */
