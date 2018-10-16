@@ -27,7 +27,7 @@
 }
 
 #mainNav .navbar-nav .nav-item:hover {
-  color: fade(white, 80%);
+  color: fade(white, 70%);
   outline: none;
   background-color: transparent;
 }
@@ -116,8 +116,9 @@
 
 @media (min-width: 768px) {
   .masthead h1 {
-    font-size: 2rem;
-    line-height: 2rem;
+    font-size: 1rem;
+    line-height: 1rem;    
+    position: relative;
   }
 }
 
@@ -281,6 +282,6 @@ footer {
 }
 
 #projects-text {
-  padding: 10rem 0;
+  padding: 8rem 0;
   font-size: 2rem;
 }

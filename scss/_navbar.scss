@@ -29,7 +29,7 @@
       }
     }
   }
-  @media (min-width: 992px) {
+  @media (min-width: 768px) {
     padding-top: 0;
     padding-bottom: 0;
     border-bottom: none;
@@ -51,7 +51,7 @@
       }
     }
     &.navbar-shrink {
-      background-color: $white;
+      background-color: $white, .50;
       .navbar-brand {
         color: $black;
       }
